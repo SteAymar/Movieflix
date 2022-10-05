@@ -1,0 +1,38 @@
+
+.contenedor-profile{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:200%;
+    align-items: center;
+
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.saludo{
+    font-size: 2.5em;
+    font-weight: 400;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.favourite{
+    position: absolute;
+    left: 7%;
+    top:350px;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+.grid-fav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 200px;
+    width: 100%;
+}

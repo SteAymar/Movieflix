@@ -1,0 +1,87 @@
+body{
+    background-color: aliceblue;
+}
+
+
+.contenedor{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 450px;
+    left: 25%;
+    top:100px;
+    border-radius: 30px;
+    
+}
+.subcontenedor{
+    display: flex;
+    border-radius: 30px;
+    width: 100%;
+}
+.contenedor-detalles{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.bg_image{
+  background-image: linear-gradient(to right, rgb(205 216 227 / 40%) 150px, rgb(199 215 231 / 72%) 100%)
+}
+
+.poster{
+    display: flex;
+    padding: 25px;
+    align-items: center;
+}
+
+.nombre{
+    font-size: 3em;
+    padding-left: 5%;
+    padding-top: 5%;
+    font-weight: bold;
+}
+
+.year{
+    padding-left: 4%;
+    font-weight: 300;
+}
+
+.resumen{
+    display: flex;
+    flex-direction: column;
+    padding-left: 6%;
+    padding-top: 5%;
+    font-size: 1.2em;
+    width: 85%;
+    font-weight: 400;
+}
+
+h3{
+    padding-bottom: 3%;
+    font-size: 1.3em;
+}
+
+.genero{
+    padding-left: 6%;
+    padding-top: 5%;
+}
+
+.chip-contenedor{
+    display: flex;
+    flex-direction: row;
+}
+.chip{
+    padding-left: 6px;
+}
+
+
+
+@media (max-width: 400px){
+
+    .gridMovie{
+        display: flex;
+        flex-direction: column;
+    }
+}

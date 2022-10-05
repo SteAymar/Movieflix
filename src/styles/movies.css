@@ -1,0 +1,14 @@
+.gridMovie{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 400px){
+
+    .gridMovie{
+        display: flex;
+        flex-direction: column;
+    }
+}
